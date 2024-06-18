@@ -29,4 +29,10 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         isValid = false;
         errorMessage += 'Event date must be in the format MM/DD/YYYY.<br>';
     }
-}
+  
+    // Validate number of tickets
+    const tickets = parseInt(document.getElementById('tickets').value);
+    if (isNaN(tickets)  tickets < 1  tickets > 10) {
+        isValid = false;
+        errorMessage += 'Number of tickets must be between 1 and 10.<br>';
+    }
