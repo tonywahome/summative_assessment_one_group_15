@@ -4,7 +4,7 @@ const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const phoneInput = document.getElementById('phone');
 const eventDateInput = document.getElementById('eventDate');
-const ticketsInput = document.getElementById('tickets');
+const ticketsInput = document.getElementById('numberoftickets');
 
 // Add event listener to the form submission
 form.addEventListener('submit', (e) => {
