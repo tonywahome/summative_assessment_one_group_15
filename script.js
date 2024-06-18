@@ -1,4 +1,4 @@
-document.getElementById('registrationForm').addEventListener('submit', function(event)) {
+document.getElementById('registrationForm').addEventListener('submit', function(event) {
   event.preventDefault();
   let isValid = true;
   let errorMessage = '';
@@ -36,3 +36,13 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         isValid = false;
         errorMessage += 'Number of tickets must be between 1 and 10.<br>';
     }
+  
+    // Show error message or submit form
+    if (!isValid) {
+        document.getElementById('error-message').innerHTML = errorMessage;
+    } else {
+        document.getElementById('error-message').innerHTML = '';
+        alert('Registration successful!');
+        // Here you can also add code to submit the form data to the server
+    }
+});
