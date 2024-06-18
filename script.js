@@ -1,4 +1,4 @@
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
+document.getElementById('registrationForm').addEventListener('submit', function(event)) {
   event.preventDefault();
   let isValid = true;
   let errorMessage = '';
@@ -23,5 +23,4 @@ document.getElementById('registrationForm').addEventListener('submit', function(
       isValid = false;
       errorMessage += 'Phone number must be in the format (123) 456-7890.<br>';
   }
-
-
+}
