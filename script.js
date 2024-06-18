@@ -23,4 +23,10 @@ document.getElementById('registrationForm').addEventListener('submit', function(
       isValid = false;
       errorMessage += 'Phone number must be in the format (123) 456-7890.<br>';
   }
+  // Validate event date
+    const eventDate = document.getElementById('eventDate').value;
+    if (!/^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$/.test(eventDate)) {
+        isValid = false;
+        errorMessage += 'Event date must be in the format MM/DD/YYYY.<br>';
+    }
 }
