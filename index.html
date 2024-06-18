@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FOMO Fest Event Registration Form</title>
+    <title>FOMO Event Registration Form</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
 </head>
 <body>
+    <div id="heading">
+        <img src="fomo-high-resolution-logo-black-transparent.png">
+        <h1>Event Registration Form</h1>
+    </div>
     <form id="registrationForm">
-        <h2>FOMO Fest Event Registration Form</h2>
+    <div class="row">
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name" placeholder="John Doe"><br>
+    </div>
+    <div class="row">
         <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
+        <input type="text" id="email" name="email"placeholder="abcdef@mail.com"><br>
+    </div>
+    <div class="row">
         <label for="phone">Phone Number:</label><br>
-        <input type="text" id="phone" name="phone"><br>
+        <input type="text" id="phone" name="phone" placeholder="123456789"><br>
+    </div>
+    <div class="row">
         <label for="eventDate">Event Date:</label><br>
-        <input type="text" id="eventDate" name="eventDate"><br>
-        <label for="tickets">Number of Tickets:</label><br>
-        <input type="number" id="tickets" name="tickets" min="1" max="10"><br>
-        <input type="submit" value="Submit">
+        <input type="date" id="eventDate" name="eventDate" placeholder="mm/dd/yy"><br>
+    </div>
+    <div class="row">
+        <label for="tickets" class="tickets">Number of Tickets:</label><br>
+        <input type="number" id="tickets" name="tickets" min="1" max="10" placeholder="1"><br>
+    </div>
+     <div class="row"><button>Submit</button></div>
     </form>
     <script src="script.js"></script>
 </body>
