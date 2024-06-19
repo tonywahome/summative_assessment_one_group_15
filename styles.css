@@ -89,3 +89,15 @@ body,html {
   button:hover{
     background-color: #682bd7;
   }
+  #error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0.5%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(10px);
+    width: 30%;
+    padding: 2%;
+    border-radius: 30px;
+  }
