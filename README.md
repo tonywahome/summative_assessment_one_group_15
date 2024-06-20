@@ -20,7 +20,9 @@ The FOMO Fest Registration webpage was created using a combination of HTML, CSS,
 
 **Approach**
 **HTML Structure:** We used HTML to create the basic structure of the registration form, including labels, input fields, and a submit button.
+
 **CSS Styling:** We applied CSS to enhance the form's appearance, making it visually appealing and user-friendly.
+
 **JavaScript Validation & Sanitization:** We implemented JavaScript functions to validate and sanitize user input. This involved:
 Using regular expressions to ensure the correct format for name, email, phone number, and date fields.
 Restricting the number of tickets to the allowed range.
@@ -51,18 +53,22 @@ _Worked on the styling (CSS)
 Hosted the Website using Vercel
 Ensured good collaboration between team members
 General Debugging of code_
+
 **Antony Wahome**
 _Created web structure (HTML)
 Debugging HTML code
 Report Drafting_
+
 **Nformi Jinelle**
 _Worked on the JavaScript and Regular expressions 
 Debugging of JavaScript code
-Collaborated with team members to debug the JavaScript code and ensure web page was working correctly_
+Collaborated with team members to debug the JavaScript code and ensure web page was working correctly
+
 **Ayomide Agbaje** 
 _Created separate validation functions for each input field
 Documented the JavaScript code with comments explaining the validation logic
 Collaborated with team members and merged code changes_
+
 **Victoria Fakunle**
 _Implemented the form validation logic and display error messages to invalid input.
 Collaborated with team members to ensure the project was completed successfully_ 
